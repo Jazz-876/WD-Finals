@@ -1,21 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
     background-image: url(../img/BK1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
+    
+    
 }
 
 
 .sheader-2 {
-    background-image: linear-gradient(#02010a, #7b2cbf);
+    background-color: #201D1D;
     padding: 25px 0px;
-    margin-top: -9px;
     margin-left: -8px;
     margin-right: -8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
   }
   
@@ -27,15 +29,19 @@ body{
     align-items: center;
   }
   .sheader-2 nav{
-    margin-left: -500px;
+    margin-left: -350px;
+    
   }
   
   
-  .sheader-2 .logo h1 {
+  .sheader-2 .logo i {
     margin: 0;
-    font-size: 24px;
-    margin-left: -450px;
+    font-size: 50px;
+    margin-left: -430px;
+    color: white;
   }
+
+
   
   
   .sheader-2 nav ul {
@@ -53,15 +59,21 @@ body{
     color: #333;
     text-decoration: none;
     
+    
   }
+
+  .sheader-2 nav ul li a button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+  
 
 
 .button-74 {
-  background-color: #fbeee0;
+  background-color: #FFFBEE;
   border: 2px solid #805b10;
   border-radius: 30px;
-  box-shadow: #805b10 4px 4px 0 0;
-  color: #805b10;
+  color: #201D1D;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -80,7 +92,7 @@ body{
 }
 
 .button-74:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #805b10 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
@@ -93,7 +105,8 @@ body{
   
   .sheader-2 .search {
     display: flex;
-    margin-left: 900px;
+    margin-left: 640px;
+    
     
   }
   
@@ -101,23 +114,47 @@ body{
     padding: 8px 12px;
     border: none;
     border-radius: 30px;
-    border: 2px solid #0d00a4;
+    border: 2px solid #805b10;
     border-radius: 30px;
-    box-shadow: #0d00a4 4px 4px 0 0;
+    
     color: #422800;
+    height: 25px;
+    width: 250px;
 
     
     outline: none;
   }
 
-.content{
+  .sheader-2 .logo2 {
+    color: white;
+    margin-left: 50px;
+    font-size: 50px;
+  }
+  .sheader-2 .name p{
+    color: rgb(255, 255, 255);
+    margin-left: 12px;
+    font-size: 20px;
+  }
+
+  .content{
     
     background-repeat: no-repeat;
     background-size: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    height: 150vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content .overlay h1{
+  font-size: 65px;
+  margin-top: -320px;
+  margin-left: 115px;
+}
+.content p{
+  font-size: 30px;
+  margin-top: -200px;
 }
 
 content::before {
