@@ -130,7 +130,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  text-align: center;
 
   height: 80vh;
   color: rgba(0, 0, 0, 0.753);
@@ -154,11 +154,12 @@ body {
 .overlay p {
   width: 90%;
   font-size: 30px;
-  margin-left: 60px;
+  
 }
 
 .overlay h1 {
   font-size: 60px;
+  
 }
 
 
